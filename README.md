@@ -63,6 +63,6 @@ These are the rules I recommend to leadership teams, and apply to my own work.
 
 ## Related
 
-- [`govern-assessment`](https://github.com/utaknablein/govern-assessment): a diagnostic for leadership teams running AI as part of their operating model
+- [`engine-diagnostic`](https://github.com/utaknablein/engine-diagnostic): an AI maturity diagnostic for leadership teams, built on my ENGINE framework
 - [`product-operating-system`](https://github.com/utaknablein/product-operating-system): the templates, decision log and agent role card these agents work with
 - More about me on my [profile](https://github.com/utaknablein)
