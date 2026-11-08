@@ -16,6 +16,10 @@ I advise leadership teams on running AI as part of their operating model. The sh
 | | [Due diligence agent](workflows/due-diligence-agent.md) | A partnership, acquisition or board conversation is scheduled | The executive taking the meeting |
 | **Learn** | [Discovery agent](workflows/discovery-agent.md) | Interview notes are added | Product lead |
 
+## See one run
+
+Before deploying anything, read what these agents actually produce: [`examples/`](examples/) has the decision memo agent's draft from a stalled 31-message thread, a full board pre-read with its commitments check and ten predicted questions, and a quarter's [scorecard filled in](examples/scorecard-filled.md), including one Fix verdict and why. The examples also say [which agent to start with](examples/README.md#which-agent-to-start-with) and how to set it up in a week.
+
 ## How they work together
 
 ```
@@ -60,6 +64,12 @@ These are the rules I recommend to leadership teams, and apply to my own work.
 - **Too many tools in one agent.** I once automated a daily research brief that combined live web search with structured output. It broke every other day. The simpler version held up. Every extra tool is another way to fail.
 - **Letting summaries replace sources.** The human at the checkpoint reads the original for anything that matters.
 - **Agents without an owner.** They drift, nobody notices, and their output quietly stops being trusted.
+
+## In practice
+
+I built this repo to make the advice I give about AI operating models concrete. It is easy to say that a product organisation should delegate work to agents while keeping judgment and accountability with its leaders. It is harder to show what that means on a Tuesday: what fires an agent, what it may read and do alone, when it stops and asks, who decides, and how you know after a quarter whether it earned its place. These seven specs are that answer, written the way I would write a role description for a person. The question underneath all of them is the one I expect leaders to spend the next decade on: when execution becomes cheap, how should the work be organised and governed?
+
+The failures section above is from my own use. The research brief that broke every other day was mine. The version that held did one job per run and handed its output to a person before anything else happened. That is the pattern in every spec here, and it came from the version that did not work.
 
 ## Related
 
